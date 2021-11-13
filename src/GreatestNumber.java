@@ -13,10 +13,10 @@ public class GreatestNumber {
 		// Convert from O(n2) to O(n) 
 		int n;
 		Scanner scan = new Scanner(System.in);
-		System.out.println("ingrese el tamaño del arreglo");
+		System.out.println("ingrese el tamaño del arreglo: ");
 		n = scan.nextInt();
 		int arr[]=new int[n];
-		System.out.println("ingrese valores en la lista");
+		System.out.println("ingrese valores en la lista: ");
 		for(int i=0;i<n;i++) {
 			arr[i]=scan.nextInt();
 		}
